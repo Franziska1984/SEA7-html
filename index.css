@@ -1,0 +1,58 @@
+
+
+main,footer {
+	 margin: 10px;
+	 padding: 20px;
+         background-color: gainsboro;
+ }	 
+
+footer div {
+     	 margin: 10px;
+         padding: 20px;
+         background-color: whitesmoke;
+      }
+
+table {
+          background-color: mediumaquamarine;
+      }
+      td,
+      th {
+          border: 1px solid grey;
+          background-color: beige;
+          padding: 10px; 15px; 10px; 15px;
+          margin: 10px;
+      }
+      h1 {
+          color: lightseagreen;
+      }
+      h2 {
+          color: lightcoral;
+      }
+      #Abgrenzung {
+          color: mediumaquamarine;
+      }
+      .Tag {
+          color: orange;
+          border: 1px solid grey;
+          padding: 1px;
+          margin: 1px;
+      }
+      span {
+          color: lightseagreen;
+      }
+      #aussen {
+              background-color: beige;
+              position: relative;
+              margin: 60px 0 0 0;
+      }
+     #innen {
+              background-color: lightcoral;
+              width: 100px;
+              height: 100px;
+              left: 300px;
+              top: -50px;
+              position: absolute;
+      }
+
+
+
