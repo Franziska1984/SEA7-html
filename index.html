@@ -1,93 +1,108 @@
 <!doctype html>
 <html>
 
- <head>
+<head>
     <title> Überschrift im Tab </title>
     <meta charset="UTF-8">         <!-- ASCII, UTF-8, Windows-8859-1   -->
-    <style>
-      table,
-      td,
-      th {
-          border: 1px solid black;
-      }  
-      h1 {
-	  color: blue;
-      }
-      h2 {
-          color: red;
-      }
 
-    </style>
- </head>
+    <link href="index.css" rel="stylesheet">
 
- <body>
-  <h1> So sieht H1 aus </h1>
-  <h2> so sieht H2 aus </h2>
-  <h3> so sieht H3 aus </h3>
+    <script src="index.js" type="module"></script>
+     
+    </script>
 
-  <p>dies ist das Absatzzeichen</p>   
+</head> 
 
-  <p>dies ist noch ein Absatz</p> 
+<!-- ********************************************************************** -->
 
- <a href="https://www.google.de">kopiert eine Webseite rein</a><br><br>
+<body id="body-id">
 
- <div>Ein Div ist einfach <strong> eine Klammer</strong> und andere Dinge</div>
- <div>hat einen anderen <i> Designkarakter </i>, eine Abgrenzung</div>
+  <header>	
+    <div id="aussen">Die ist der Banner
+	  <div id="innen">Logo</div>für diese Seite
+    </div>
+  </header>
+<!-- **********************************************************************  -->
+  <main>
+    <div id="main">
+      <article>
+         <h1> So sieht H1 aus </h1>
+         <h2> so sieht H2 aus </h2>
+         <h3> so sieht H3 aus </h3>
+
+         <p>dies ist das Absatzzeichen</p>   
+
+         <p>dies ist noch ein Absatz</p> 
+
+         <p>Heute ist ein toller <span class="Tag">Tag</span>, der schönste <span class="Tag">Tag</span> des Monats. 
+            Es scheint die Sonne und die Bäume verlieren die Blätter.<br>
+            Dieser <span class="Tag">Tag</span> ist besonders. Der <span class="Tag">Tag</span> ist ein Oktobertag.
+            <span>Es gab einen tollen Sonnenaufgang</span>.
+	 </p><br><br>
  
+         <a href="https://www.google.de">kopiert eine Webseite rein</a><br><br>
 
- <h4>Listenüberschrift</h4>
- <ul>
-     <li>Listenpunkt1</li>
- <ol>
-     <li>Unterpunkt1</li>
-     <li>Unterpunkt2</li>
-     <li>Unterpunkt3</li>
-</ol>
-     <li>Listenpunkt2</li>
-     <li>Listenpunkt3</li>
- </ul>
+         <div>Ein Div ist einfach <strong> eine Klammer</strong> um andere Dinge.
+              Es hat einen anderen <i> Designkarakter </i> Es ist eine 
+         <span id="Abgrenzung">Abgrenzung</span>.</div> 
 
-<h4>eine Tabelle</h4>
+     </article>
+   </div>
+</main>
+<!-- ************************************************************************ -->
+<footer> 
+   <div>	
+     <h4>Listenüberschrift</h4>
+       <ul>
+         <li>Listenpunkt1</li>
+       <ol>
+        <li>Unterpunkt1</li>
+        <li>Unterpunkt2</li>
+        <li>Unterpunkt3</li>
+       </ol>
+        <li>Listenpunkt2</li>
+        <li>Listenpunkt3</li>
+       </ul>
+   </div>
 
-<table>
-  <tr>
-    <th>Vorname</th>
-    <th>Name</th>
-  </tr>
-  <tr>
-    <td>Franziska</td>
-    <td>Wienecke</td>
-   </tr>
-   <tr>
-     <td>Raphael</td>
-     <td>Wienecke</td>
-   </tr>
-</table>
+    <h4>eine Tabelle</h4>
 
-<br>
+    <table>
+       <tr>
+         <th>Vorname</th>
+         <th>Name</th>
+      </tr>
+      <tr>
+        <td>Franziska</td>
+        <td>Wienecke</td>
+      </tr>
+      <tr>
+        <td>Raphael</td>
+        <td>Wienecke</td>
+      </tr>
+    </table><br>
+ 
+    <a href="index3.html">Verlinkung zu einer Datei</a><br><br>
+ 
+    <form action="index2.html" id="person">
+      <label for="vorname">Vorname</label> 
+        <input id="vorname" name="vorname" maxlength="100"><br><br> 
+      <label for="name">Name</label> 
+        <input id="name" name="name" maxlength="100"><br><br>
 
- <a href="index3.html">Verlinkung zu einer Datei</a><br>
- <br>
- <form action="index2.html" id="person">
- <label for="vorname">Vorname</label> 
- <input id="vorname" name="vorname" maxlength="100"><br>
- <br> 
- <label for="name">Name</label> 
- <input id="name" name="name" maxlength="100"><br>
- <br>
- <input type="checkbox" id="1.Haken" name="1.Haken"<checked>
- <lable for="1.Haken">1.Haken</lable>
- <br>
-<input type="checkbox" id="2.Haken" name="2.Haken"<checked>
-<lable for="2.Haken">2.Haken</lable> <br>
- <br>
- <button type="submit">Eingaben absenden</button>
- </form>
- <br>
+      <input type="checkbox" id="1.Haken" name="1.Haken"<checked>
+        <lable for="1.Haken">1.Haken</lable><br>
+	
+      <input type="checkbox" id="2.Haken" name="2.Haken"<checked>
+        <lable for="2.Haken">2.Haken</lable> <br><br>
+	
+      <button type="submit">Eingaben absenden</button>
+    </form><br>
 
- <img src="forrest.jpg" alt="forrest" width="400" height="300">
+    <img src="forrest.jpg" alt="forrest" width="400" height="300">
 
- </body>
+</footer>
 
+</body>
 
 </html>
